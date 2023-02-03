@@ -1,46 +1,79 @@
-# Sempoa x Setrum
+# Laravel SB Admin 2
 
-## About Project
+SB Admin 2 for Laravel.
 
-Projek ini adalah bagian dari situs [setrum.com](https://setrum.com/), merupakan wadah informasi kendaraan listrik dan produk-produk turunannya. Dari mobil, sepeda motor, DIY, sampai gadget hingga lifestyle.  Kami adalah sekumpulan penggemar otomotif peminat kendaraan listrik, dari berbagai latar belakang.
+| Laravel Version | Branch | Support     |
+|-----------------|--------|-------------|
+| 9.0             | master |             |
+| 8.0             | v8.0   |             |
+| 7.0             | v7.0   | End of life |
+| 6.0             | v6.0   | End of life |
+| 5.8             | v5.8   | End of life |
 
-## Project Goal
+## Requirements
 
-Membuat situs komparasi kendaraan listrik seperti [mobil123.com](https://mobil123.com) dengan versi yang lebih sederhana.
+- PHP >= 8.0
+- BCMath PHP Extension
+- Ctype PHP Extension
+- JSON PHP Extension
+- Mbstring PHP Extension
+- OpenSSL PHP Extension
+- PDO PHP Extension
+- Tokenizer PHP Extension
+- XML PHP Extension
 
-## Fitur
+## Installation
 
-### Frontend
+- Clone the repo and `cd` into it
+- Run `composer install`
+- Rename or copy `.env.example` file to `.env`
+- Run `php artisan key:generate`
+- Set your database credentials in your `.env` file
 
-- Homepage
-    - Navbar
-    - Filter kendaraan
-        - merek
-        - model
-        - harga
-        - kondisi (!)
-        - lokasi (!)
-    - Banner
-        - Gambar
-        - CTA (teks dan link)
-    - List Produk
-        - Thumbnail
-        - Nama Produk
-        - Harga
-        - CTA (telepon & ecommerce *Tokopedia*)
-- Hasil Filter
-    - List Produk
-    - Pilih 2-3 produk untuk dibandingkan
-- Halaman Perbandingan
-- Detail Produk
+## Note
 
-### Backend
+Recommend to install this preset on a project that you are starting from scratch, otherwise your project's design might break.
 
-- **(CMS)** Login administrator
-- **(CMS)** CRUD menggunakan GroceryCRUD
-    - User
-    - Menu
-    - Banner
-    - Spesifikasi Produk
-    - Produk
-- **(FE)** RESTFul APIs
+If you found this project useful, then please consider giving it a :star:
+
+## Credits
+
+Laravel SB Admin 2 uses some open-source third-party libraries/packages, many thanks to the web community.
+
+- Laravel - Open source framework.
+- LaravelEasyNav - Making managing navigation in Laravel easy.
+- SB Admin 2 - Thanks to Start Bootstrap.
+
+## Preview
+
+`login`
+
+<img src="https://imgur.com/YjGp6Sbl.png">
+
+***
+
+`register`
+
+<img src="https://imgur.com/Wj09cu4l.png">
+
+***
+
+`dashboard`
+
+<img src="https://imgur.com/CrmOfT5l.png">
+
+***
+
+`profile`
+
+<img src="https://imgur.com/5t4eS1rl.png">
+
+***
+
+`logout`
+
+<img src="https://imgur.com/d9JclOYl.png">
+
+## License
+
+Licensed under the [MIT](LICENSE) license.
